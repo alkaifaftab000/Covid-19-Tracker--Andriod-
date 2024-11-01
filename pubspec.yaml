@@ -1,0 +1,28 @@
+name: covid_19_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  http: ^0.13.4
+  animated_text_kit: ^4.2.1
+  pie_chart: ^5.1.0
+  flutter_spinkit: ^5.1.0
+  shimmer: ^2.0.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/virus.png
+
